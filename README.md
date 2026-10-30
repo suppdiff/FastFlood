@@ -2,27 +2,27 @@
 
 **Fast Flood** is a lightweight, standalone graphical chat-announcement addon for **World of Warcraft 3.3.5a (build 12340, Interface 30300)**. It offers one shared announcement message, a configurable repeat interval, up to two chat destinations, and a detachable quick launcher.
 
-> **Status: v0.2.0 — awaiting visual and live sending tests on a real 3.3.5a client.** Lua parsing and an offline mocked WoW UI/sending suite run in CI; simulated sends are not confirmation of server delivery.
+> **Status: v1.0.0 — awaiting visual and live sending tests on a real 3.3.5a client.** Lua parsing and an offline mocked WoW UI/sending suite run in CI; simulated sends are not confirmation of server delivery.
 
 ## Install
 
-1. Download the **installable** release ZIP (`FastFlood-v0.2.0.zip`) from the Releases page, or copy the `FastFlood/` directory from this repository.
+1. Download the **installable** release ZIP (`FastFlood-v1.0.0.zip`) from the Releases page, or copy the `FastFlood/` directory from this repository.
 2. Put the **single** `FastFlood` folder under `World of Warcraft/Interface/AddOns/`.
 3. Confirm you have `Interface/AddOns/FastFlood/FastFlood.toc` (not `FastFlood/FastFlood/FastFlood.toc`).
 4. Enable **Fast Flood** on the character-selection AddOns screen.
 5. Type `/fastflood` in chat.
 
-**Upgrading from v0.1.0 or v0.1.1:** Replace only the `Interface/AddOns/FastFlood` addon directory. Keep your `WTF/Account/.../SavedVariables/FastFlood.lua` file. The v0.2.0 addon converts the old single destination into the first of the new channel slots automatically.
+**Upgrading from v0.1.0 or v0.1.1:** Replace only the `Interface/AddOns/FastFlood` addon directory. Keep your `WTF/Account/.../SavedVariables/FastFlood.lua` file. The v1.0.0 addon converts the old single destination into the first of the new channel slots automatically.
 
 ## Commands
 
 | Command | Result |
 | --- | --- |
-| `/fastflood` | Toggle the main configuration window |
+| `/fastflood` | Toggle the main window |
 | `/fastfloodstart` | Start repeating, or stop if running |
 | `/ff` | Short compatibility alias for `/fastflood` |
 
-Older `/ff on`, `/ff off`, `/ff button`, `/ff button on`, `/ff button off`, `/ff dock`, `/ff float`, and `/ff help` are supported for existing users. The old **Send Once** control and `/ff once` command were removed from the interface in v0.2.0.
+Older `/ff on`, `/ff off`, `/ff button`, `/ff button on`, `/ff button off`, `/ff dock`, `/ff float`, and `/ff help` are supported for existing users. The old **Send Once** control and `/ff once` command were removed from the interface in v1.0.0.
 
 ## Features
 
