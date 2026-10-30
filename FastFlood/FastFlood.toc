@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Fast Flood
+## Notes: Graphical repeat-chat announcements with two destinations for WoW 3.3.5a.
+## Author: Fast Flood contributors
+## Version: 0.2.0
+## SavedVariablesPerCharacter: FastFloodDB
+
+FastFlood.lua
